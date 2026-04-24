@@ -12,8 +12,8 @@ Desenvolvida consulta SQL simples no banco Oracle:
 
 ```sql
 SELECT 
-    TGLNOTA.NUMNOTA,
-    TGLNOTA.VLRNOTA,
-    TGLNOTA.CODPROD
+    TGLNOTA.NUMNOTA AS "Número da Nota",
+    TGLNOTA.VLRNOTA AS "Valor da Nota",
+    TGLNOTA.CODPROD AS "Código do Produto"
 FROM 
-    TGLNOTA
+    TGLNOTA;
